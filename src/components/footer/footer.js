@@ -6,6 +6,7 @@ import Comb from "../../assets/img/Combined Shape.svg"
 import App from "../../assets/img/app.svg"
 import Google from "../../assets/img/google.svg"
 import Ste from "../../assets/img/stre.svg"
+import '../../styles/footer/footer-media.scss'
 
 const Footer = () => {
     return (
@@ -17,8 +18,8 @@ const Footer = () => {
                     <img src={Image} alt="img" className="mt-5 mb-3"/>
                     <div className="bac-width"> </div>
                 </div>
-                <div className="d-flex justify-content-around">
-                    <span>
+                <div className="row">
+                    <span className="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12" >
                     <div>
                 <img src={img} alt="" className="bac-img"/>
                 <select className="bac-select">
@@ -37,14 +38,16 @@ const Footer = () => {
                 </div>
             </div>
                 </span>
-                    <span>
+
+                    <span className="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12" >
                     <div>
                         <h1 className="bac-text">Об UberEats</h1>
                         <h1 className="bac-text">Станьте партнёром по доставке</h1>
                         <h1 className="bac-text">Станьте парнёром-рестораном</h1>
                     </div>
                 </span>
-                    <span>
+
+                    <span className="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12" >
                     <div>
                         <h1 className="bac-text">Все города</h1>
                         <h1 className="bac-text">Цены</h1>
@@ -60,15 +63,23 @@ const Footer = () => {
                 </div>
 
                 <div className="bac-width3"> </div>
-                <div className="d-flex align-items-center justify-content-between">
-                    <span><h1 className="bac-inc">© 2017 Uber Technologies Inc.</h1></span>
-                    <span><h1 className="bac-inc">Обработка персональных данных</h1></span>
-                    <span><h1 className="bac-inc">Пользовательское соглашение</h1></span>
-                    <a href="#">
-                        <div className="bac-square">
-                            <img src={Ste} alt="img" className="bac-ste"/>
-                        </div>
-                    </a>
+
+
+                <div className="row">
+                    <span className="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12" ><h1 className="bac-inc">© 2017 Uber Technologies Inc.</h1></span>
+
+
+                    <span className="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12" ><h1 className="bac-inc">Обработка персональных данных</h1></span>
+
+
+                    <span className="d-flex  col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12"><h1 className="bac-inc">Пользовательское соглашение</h1>
+                       <a href="#">
+                    <div className="bac-square">
+                        <img src={Ste} alt="img" className="bac-ste"/>
+                    </div>
+                </a>
+                    </span>
+
                 </div>
             </div>
         </div>

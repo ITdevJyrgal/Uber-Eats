@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "./Data";
 import '../../styles/Main/main.scss'
+import '../../styles/name/name-media.scss'
 const Names = () => {
     return (
         <div className="general2">
@@ -11,7 +12,7 @@ const Names = () => {
                 </div>
                 {Data.map((el) => {
                     return (
-                        <div className="col-4 mt-5" key={el.id}>
+                        <div className="col-xxl-4 col-xl-4 col-md-6 col-lg-12 col-sm-12 mt-5" key={el.id}>
                             <img src={el.image} alt="img"/>
                             <h5>{el.date}</h5>
                             <p>{el.category}</p>

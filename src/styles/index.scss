@@ -1,2 +1,10 @@
 @import "../styles/Header/header";
 @import "../styles/footer/footer";
+@import "../styles/name/name-media";
+
+@media (max-width: 375px) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+}

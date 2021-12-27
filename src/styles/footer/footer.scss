@@ -11,22 +11,23 @@
     position: absolute;
     padding-top: 14px;
   }
-  &-select {
+  &-select  {
     background: #545454;
     margin-left: -10px;
-    width: 200%;
+    border-radius: 7px;
+    width: 70%;
     height: 40px;
     border: none;
     outline: none;
     color: white;
     padding-left: 30px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   &-uber{
     color: white;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 
   }
   &-uber2{
