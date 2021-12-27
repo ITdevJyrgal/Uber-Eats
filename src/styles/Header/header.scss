@@ -1,0 +1,31 @@
+.general {
+  background: rgba(136, 134, 134, 0.75);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+
+  &-img {
+    margin: 0 11%;
+  }
+
+  &-btn {
+    margin-left: -90%;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    transition: .5s;
+
+    &:hover {
+      background: #222222;
+      color: white;
+    }
+  }
+
+  &-kor {
+    margin: 0 20px;
+  }
+
+}
