@@ -3,7 +3,6 @@ import "../../styles/Header/header.scss"
 import Image from "../../assets/img/white-logo.svg";
 import img from '../../assets/img/basket.svg'
 import '../../styles/Header/header-media.scss'
-import About from "../../companents2/about/about";
 import {Modal} from "react-bootstrap";
 
 const Header = () => {

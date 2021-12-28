@@ -5,7 +5,7 @@ import '../../styles/name/name-media.scss'
 const Names = () => {
     return (
         <div className="general2">
-        <div className="container  mt-5 text-center mb-5 align-items-center d-flex ">
+        <div className="container  mt-5  mb-5 align-items-center d-flex ">
             <div className="row flex-wrap">
                 <div className="mb-3">
                     <h3>Рестораны в Москве</h3>
