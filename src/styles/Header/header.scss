@@ -26,5 +26,26 @@
   &-kor {
     margin: 0 20px;
   }
+  &-close{
+    padding: 3px 8px;
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: .4s;
+    &:hover{
+      background: darkred;    }
+  }
+  &-close2{
+    padding: 3px 8px;
+    background: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: .4s;
+    &:hover{
+      background: darkgreen;
+    }
+  }
 
 }

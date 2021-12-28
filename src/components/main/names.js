@@ -12,12 +12,14 @@ const Names = () => {
                 </div>
                 {Data.map((el) => {
                     return (
-                        <div className="col-xxl-4 col-xl-4 col-md-6 col-lg-12 col-sm-12 mt-5" key={el.id}>
+
+                        <div className="col-xxl-4 col-xl-6 col-lg-6 col-md-12  col-sm-12 mt-5" key={el.id}>
                             <img src={el.image} alt="img"/>
                             <h5>{el.date}</h5>
                             <p>{el.category}</p>
                             <h6>{el.time}</h6>
                         </div>
+
                     )
 
                 })}

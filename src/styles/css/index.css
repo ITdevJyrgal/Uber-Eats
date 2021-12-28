@@ -24,6 +24,28 @@
 .general-kor {
   margin: 0 20px;
 }
+.general-close {
+  padding: 3px 8px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.general-close:hover {
+  background: darkred;
+}
+.general-close2 {
+  padding: 3px 8px;
+  background: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.general-close2:hover {
+  background: darkgreen;
+}
 
 .bac {
   background: #000;
